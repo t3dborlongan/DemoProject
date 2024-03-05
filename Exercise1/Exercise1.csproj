@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="file_diff.txt" />
+    <None Remove="src\objects\ActiveScratchOrg.object" />
+    <None Remove="src\objects\Event.object" />
+    <None Remove="src\objects\Trading_Event__c.object" />
+    <None Remove="src\profiles\Admin.profile" />
+    <None Remove="src\reports\CACI_Imports\All_Closed.report" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="file_diff.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="src\objects\ActiveScratchOrg.object">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="src\objects\Event.object">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="src\objects\Trading_Event__c.object">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="src\profiles\Admin.profile">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="src\reports\CACI_Imports\All_Closed.report">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+  </ItemGroup>
+
+</Project>

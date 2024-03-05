@@ -1,0 +1,51 @@
+# Ignore Visual Studio files
+.vs/
+*.vscode/
+*.suo
+*.user
+*.sln
+*.suo
+*.cache
+*.csproj.user
+
+# Ignore NuGet packages
+packages/
+*.nuget.config
+
+# Ignore build output
+bin/
+obj/
+out/
+
+# Ignore Resharper and Visual Studio code coverage files
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+
+# Ignore ReSharper cache and analysis folders
+*/[Rr]e[Ss]harper*/
+*.ReSharper.user
+
+# Ignore Rider files
+.idea/
+
+# Ignore Mac and Windows file system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and other files produced by the application
+log/
+*.log
+
+# Ignore files with secrets or sensitive information
+secrets.json
+
+# Ignore user-specific Visual Studio settings
+.vsconfig
+
+# Ignore Visual Studio IntelliCode files
+.vscode/
+
+# Ignore build cache
+bin/
+obj/

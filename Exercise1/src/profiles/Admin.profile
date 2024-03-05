@@ -1,0 +1,1 @@
+﻿This is the sample content of the Admin.profile file.
